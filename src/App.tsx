@@ -1,12 +1,11 @@
 import React from 'react';
-import {View, Text} from 'react-native';
+import Route from './app/route';
+import {View} from 'react-native';
 
 export default function App() {
   return (
-    <>
-      <View className="bg-blue-500 ">
-        <Text className="text-white">Hello</Text>
-      </View>
-    </>
+    <View className="relative h-full">
+      <Route />
+    </View>
   );
 }

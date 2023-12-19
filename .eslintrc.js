@@ -1,6 +1,6 @@
 module.exports = {
   root: true,
-  extends: '@react-native',
+  extends: ['@react-native', 'plugin:tailwindcss/recommended'],
   rules: {
     'linebreak-style': 0,
     'prettier/prettier': [
